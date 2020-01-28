@@ -417,7 +417,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab5f67c9e85304040b5ee04792539ea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 1
+  x: 12
+  text: richie
 --- !u!136 &1275362657
 CapsuleCollider:
   m_ObjectHideFlags: 0
