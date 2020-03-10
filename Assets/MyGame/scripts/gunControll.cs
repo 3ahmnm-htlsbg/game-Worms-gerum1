@@ -22,7 +22,6 @@ public class gunControll : MonoBehaviour
             {
                     shoot();
             }
-          
     }
     
     void shoot()
