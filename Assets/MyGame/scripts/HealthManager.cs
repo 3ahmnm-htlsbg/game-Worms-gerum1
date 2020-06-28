@@ -19,14 +19,15 @@ public class HealthManager : MonoBehaviour
     {
         if (collision.gameObject.tag == "DamageZone")
         {
-            health = health - 4;
+            health = health - 1;
             healthText.text = health.ToString();
+            Destroy(collision.gameObject);
 
             Debug.Log("Kollision DamageZone");
         }
         if (collision.gameObject.tag == "Healthpack")
         {
-            health = health + 4;
+            health = health + 1;
             healthText.text = health.ToString();
 
 

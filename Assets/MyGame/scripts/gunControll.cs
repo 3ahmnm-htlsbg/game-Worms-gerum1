@@ -18,7 +18,7 @@ public class gunControll : MonoBehaviour
     }
     void Update()
     {
-            if (Input.GetKeyDown("2"))
+            if (Input.GetKeyDown("9"))
             {
                     shoot();
             }

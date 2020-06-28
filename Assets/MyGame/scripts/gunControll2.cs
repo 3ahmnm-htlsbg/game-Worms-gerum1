@@ -18,7 +18,7 @@ public class gunControll2 : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown("9"))
+        if (Input.GetKeyDown("2"))
         {
             shoot();
         }
@@ -35,6 +35,6 @@ public class gunControll2 : MonoBehaviour
         //add force
         rbBullet = bulletInst.GetComponent<Rigidbody>();
         Debug.Log(rbBullet);
-        rbBullet.AddForce(this.transform.up * 2f, ForceMode.Impulse);
+        rbBullet.AddForce(-this.transform.up * 2f, ForceMode.Impulse);
     }
 }
